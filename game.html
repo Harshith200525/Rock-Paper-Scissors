@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body id="game-body">
+    <div id="gameground">
+      <div id="score-board">
+        <div id="player-score">0</div>
+        <div>-</div>
+        <div id="comp-score">0</div>
+      </div>
+      <div id="main-game">
+        <div id="player-ground" class="playground">
+          <div class="name"><h2>You</h2></div>
+          <div id="player-select-pic"></div>
+          <div id="player-operations">
+            <img src="./assets/rock-logo.png" alt="rock-logo" id="rock-pic" />
+            <img
+              src="./assets/paper-logo.png"
+              alt="paper-logo"
+              id="paper-pic"
+            />
+            <img
+              src="./assets/scissors-logo.png"
+              alt="scissors-logo"
+              id="scissors-pic"
+            />
+          </div>
+        </div>
+        <img src="./assets/vs.png" alt="vs" />
+        <div id="comp-ground" class="playground">
+          <div class="name"><h2>Comp</h2></div>
+          <div id="comp-select-pic"></div>
+        </div>
+      </div>
+    </div>
+    <div id="end-screen">
+      <h4 id="end-screen-msg"><span id="winner">You</span> won the game</h4>
+      <div id="play-again-btn">Play Again</div>
+    </div>
+  </body>
+  <script src="./game.js"></script>
+</html>

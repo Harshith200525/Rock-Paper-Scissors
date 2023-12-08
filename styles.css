@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;700;900&display=swap");
+
+body {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+#heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 18px;
+}
+
+#main-heading {
+  color: rgb(90, 37, 192);
+  font-size: 60px;
+}
+
+#game-image {
+  margin-left: 125px;
+}
+
+#game-image > img {
+  width: 575px;
+  height: 420px;
+}
+
+#play-button {
+  display: flex;
+  color: white;
+  margin-top: 325px;
+  margin-left: 125px;
+}
+
+#play-button > img {
+  width: 45px;
+  height: 45px;
+  margin-right: 25px;
+  margin-top: 13px;
+}
+
+#game-image-container {
+  display: flex;
+}
+
+#gameground {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#score-board {
+  display: flex;
+  font-size: 135px;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#main-game {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-game > img {
+  height: 375px;
+}
+
+.playground {
+  height: 400px;
+  width: 400px;
+  border: 1px solid #ffc434;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#player-operations {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#player-operations > img {
+  width: 22%;
+  aspect-ratio: 1/1;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#comp-select-pic > img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+#player-select-pic > img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+#play-again-btn {
+  display: flex;
+  justify-content: center;
+  background-color: #ffc434;
+  width: 125px;
+  height: 25px;
+  border: 1px solid #ffc434;
+  border-radius: 5px;
+}
+
+#game-body {
+  display: flex;
+  flex-direction: column;
+}
+
+#end-screen {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+#end-screen-msg {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
